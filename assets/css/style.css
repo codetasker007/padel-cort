@@ -366,17 +366,6 @@ li > a:only-child:after {
   color: black;
   font-weight: 700;
   font-size: 42px;
-  position: relative;
-}
-
-.about-us .about-bg .left h2::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  width: 52px;
-  height: 9px;
-  background-color: black;
-  left: 0;
 }
 
 .about-us .about-bg .left h6 {

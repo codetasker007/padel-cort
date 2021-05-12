@@ -364,17 +364,7 @@ li > a:only-child:after {
             h2{
                 color: rgb(0, 0, 0);
                 font-weight: 700;
-                font-size: 42px;
-                position: relative;
-                &::after{
-                    content: "";
-                    position: absolute;
-                    top: -10px;
-                    width: 52px;
-                    height: 9px;
-                    background-color: rgb(0, 0, 0);
-                    left: 0;
-                } 
+                font-size: 42px;                
             }
             h6{
                 color: rgb(0, 0, 0);
