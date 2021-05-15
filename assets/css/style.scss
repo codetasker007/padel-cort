@@ -210,13 +210,17 @@ li > a:only-child:after {
   /* Stylinf the toggle lable */
   .toggle {
     display: block;
-    background-color: #254441;
+    background-color: #254;
     padding: 14px 20px;
     color: #fff;
     font-size: 17px;
     text-decoration: none;
     border: none;
+    text-align: right;
     transition: all 0.3s;
+    position: relative;
+    top: -67px;
+    z-index: -11;
   }
 
   .toggle:hover {
@@ -1897,10 +1901,10 @@ font-weight: 300;
   .padelcort .padelcort-main .img-sec .one {
     width: 95%;
 }
-.service-bg .service .service-type .one .type-content p {
+.service-bg .service .service-type .one .type-content p{
   padding-right: 0px;
 }
-.service-bg .service .service-type .one .img-type img {
+.service-bg .service .service-type .one .img-type img{
   width: 75px;
 }
 .about-us .about-bg .left h6 {

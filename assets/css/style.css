@@ -215,14 +215,18 @@ li > a:only-child:after {
   /* Stylinf the toggle lable */
   .toggle {
     display: block;
-    background-color: #254441;
+    background-color: #254;
     padding: 14px 20px;
     color: #fff;
     font-size: 17px;
     text-decoration: none;
     border: none;
+    text-align: right;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    position: relative;
+    top: -67px;
+    z-index: -11;
   }
   .toggle:hover {
     background-color: #000000;
